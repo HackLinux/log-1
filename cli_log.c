@@ -18,8 +18,8 @@
 #include "cli_log.h"
 
 #define LOG_FILE_PATH       "/tmp/cloud_services"
-#define LOG_FILE_NAME       "web_cli.log"
-#define LOG_LOCK_FILE_NAME  "/tmp/.web_cli_log_lockfile.lock"
+#define LOG_FILE_NAME       "cli.log"
+#define LOG_LOCK_FILE_NAME  "/tmp/.cli_log_lockfile.lock"
 #define LOG_FILE_MAXSIZE    (1*1024*1024)
 #define LOG_FILE_ROLL_NUM   2
 
